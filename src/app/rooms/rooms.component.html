@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navbar</title>
+</head>
+<body background="">
+  
+    <header>
+            <h2>Mvelo Hotels</h2>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+               
+            </ul>
+        </nav>
+
+       
+        
+
+      
+    </header>
+  
+<div class="flex-container">
+        <div><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" height="90%" width="90%"> 
+         
+
+            <div class="card" style="width: 20rem;">
+                   
+                    <div class="card-body">
+                      <p class="card-title">Standard suite</p>
+                      <p class="card-text">This room has a single queen size bed .These rooms vary in size from 35–40 sq m. Our double rooms are equipped with:</p>
+
+                      <li>Safe</li>
+                      <li>Wifi</li>
+                      <li>Room service</li>
+                      <li>Outdoor pool</li>
+
+                        
+<pre *ngFor = "let item of shoppingList$ | async" >  {{item.name}}&nbsp;{{item.surname}}
+{{item.imageUrl}}</pre>
+                    </div>
+                  </div>
+                  <label floating style ="color:white;">Name</label>     
+                  <input [(ngModel)] = "item.name">
+
+
+                  <label floating style ="color:white;">Surname</label>     
+                  <input [(ngModel)] = "item.surname">
+
+                      <label floating style ="color:white;">Message</label>     
+                      <input [(ngModel)] = "item.imageUrl">
+                  <button ion-button full (click) = "addItem(item)">SUBMIT</button>
+
+
+        </div>
+        <div><img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-1.2.1&auto=format&fit=crop&w=1039&q=80" height="90%" width="90%">
+            <div class="card" style="width:20rem;">
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">Executive suite</h5>
+                      <p class="card-text">This room has a single queen size bed .These rooms vary in size from 20–25 sq m. Our double rooms are equipped with:</p>
+                        
+                      <li>Safe</li>
+                      <li>Wifi</li>
+                      <li>Room service</li>
+                      <li>Outdoor pool</li>
+                  
+<pre *ngFor = "let item1 of shoppingList1$ | async" >{{item1.name}}&nbsp;{{item1.surname}}
+{{item1.imageUrl}}</pre>
+    
+  
+                    </div>
+                  </div>
+                  <label floating style ="color:white;">Name</label>     
+                  <input [(ngModel)] = "item1.name">
+
+
+                  <label floating style ="color:white;">Surname</label>     
+                  <input [(ngModel)] = "item1.surname">
+
+                      <label floating style ="color:white;">Message</label>     
+                      <input [(ngModel)] = "item1.imageUrl">
+                  <button ion-button full (click) = "addItem1(item1)">SUBMIT</button>
+        </div>
+        <div><img src="https://images.unsplash.com/photo-1505692433770-36f19f51681d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" height="90%" width="90%">
+            <div class="card" style="width: 20rem;">
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">Presidential suite</h5>
+                      <p class="card-text">This room has a single queen size bed .These rooms vary in size from 35–40 sq m. Our double rooms are equipped with:</p>
+                      <li>Safe</li>
+                      <li>Wifi</li>
+                      <li>Room service</li>
+                      <li>Outdoor pool</li>
+
+<pre *ngFor = "let item2 of shoppingList2$ | async" > {{item.name2}}&nbsp;{{item.surname2}}
+{{item.imageUrl2}}</pre>
+       
+                    </div>
+                  </div>
+
+                  <label floating style ="color:white;">Name</label>     
+                  <input [(ngModel)] = "item2.name">
+
+
+                  <label floating style ="color:white;">Surname</label>     
+                  <input [(ngModel)] = "item2.surname">
+
+                      <label floating style ="color:white;">Message</label>     
+                      <input [(ngModel)] = "item2.imageUrl">
+                  <button ion-button full (click) = "addItem2(item2)">SUBMIT</button>
+        </div>
+        <div><img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" height="90%" width="90%">
+
+          
+            <div class="card" style="width: 20rem;">
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">Villa suite</h5>
+                      <p class="card-text">This room has a single queen size bed .These rooms vary in size from 25-30 sq m. Our double rooms are equipped with:</p>
+                      <li>Safe</li>
+                      <li>Wifi</li>
+                      <li>Room service</li>
+                      <li>Outdoor pool</li>
+                      
+
+<pre *ngFor = "let item3 of shoppingList3$ | async" >{{item3.name}}&nbsp;{{item3.surname}}
+{{item3.imageUrl}}</pre>
+                      
+            
+                    </div>
+                  </div>
+                  <label floating style ="color:white;">Name</label>     
+                  <input [(ngModel)] = "item3.name">
+
+
+                  <label floating style ="color:white;">Surname</label>     
+                  <input [(ngModel)] = "item3.surname">
+
+                      <label floating style ="color:white;">Message</label>     
+                      <input [(ngModel)] = "item3.imageUrl">
+                  <button ion-button full (click) = "addItem3(item3)">SUBMIT</button>
+  
+        </div>
+
+        
+      </div>
+      
+
+      
+
+</body>
+</html>
+

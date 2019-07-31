@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+       
+    <div id='login'>
+        <h1>Register<span class='orangestop'>.</span></h1>
+          <input type ="email" [(ngModel)] ="user.email"   placeholder='Username'>
+        <span class='input'>
+          <input input  type ="password"  [(ngModel)] ="user.password" placeholder='Password' >
+        </span>
+        <div class='divider'></div>
+        <button routerLink ='/Login' type="submit" class="logbtn" (click)="fun(user)" value="Login">Register</button>
+       
+      </div>
+            
+            
+            </body>
